@@ -1,19 +1,15 @@
-/* Viết chương trình tính giá trị biểu thức
-trong đó x là số nguyên nhập từ bàn phím
-F(x) = (1 + x) / (1 - x)
-g(x) = (3x^5 + 2x + sqrt(x + 1) ) / ( 5x ^ 2 - 3) */
+/* BT3: Viết chương trình tính giá trị F(x), G(x)
+trong đó x là số nguyên nhập từ bàn phím 
+F(x) = 5x^2 + 6x + 1
+G(x) = 2x^4 - 5x^2 +  4x + 1 */
 
 #include <stdio.h>
-#include <math.h>
 
-int main() {
-	int x; 
+int main () {
+	int x; scanf("%d", &x);
 	
-	printf("Nhap x: ");
-	scanf("%d", &x);
-	
-	printf ("F(x) = %.2f\n", (double)(1 + x) / (1 - x));
-	printf ("g(X) = %.2f", (3 * pow(x,5) + 2 * x + sqrt(x + 1) ) / ( 5 * x * x - 3));
+	printf("F(x) = %d\n", 5 * x * x + 6 * x + 1);
+	printf("G(x) = %d", 2 * x * x * x * x - 5 * x * x + 4 * x + 1);
 	
 	return 0;
 }
