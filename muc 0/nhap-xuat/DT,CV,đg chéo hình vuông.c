@@ -1,4 +1,4 @@
-/*BT7: Viết chương trình nhập vào chiều dài 1 cạnh hình vuông
+/* Viết chương trình nhập vào chiều dài 1 cạnh hình vuông
 Xuất ra kết quả chu vi, diện tích, đường chéo */
 
 #include <stdio.h>
