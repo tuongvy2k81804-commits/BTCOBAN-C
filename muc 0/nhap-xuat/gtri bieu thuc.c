@@ -1,4 +1,4 @@
-/* BT3: Viết chương trình tính giá trị F(x), G(x)
+/*  Viết chương trình tính giá trị F(x), G(x)
 trong đó x là số nguyên nhập từ bàn phím 
 F(x) = 5x^2 + 6x + 1
 G(x) = 2x^4 - 5x^2 +  4x + 1 */
