@@ -1,4 +1,4 @@
-/*BT6:  Viết chương trình nhập vào bán kính hình tròn
+/* Viết chương trình nhập vào bán kính hình tròn
 Tính và xuất kết quả chu vi, diện tích */
 
 #include <stdio.h>
