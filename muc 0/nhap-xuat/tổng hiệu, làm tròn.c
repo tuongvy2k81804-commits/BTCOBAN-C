@@ -1,3 +1,7 @@
+/*  Viết chương trình nhập vào 2 số thực.
+Tính và xuất kết quả tổng, hiệu, tích, thương
+Kết quả lấy 2 số lẻ */
+
 #include <stdio.h>
 
 int main () {
