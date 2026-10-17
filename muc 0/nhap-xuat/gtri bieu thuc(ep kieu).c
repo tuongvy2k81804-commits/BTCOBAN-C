@@ -12,8 +12,17 @@ int main() {
 	printf("Nhap x: ");
 	scanf("%d", &x);
 	
-	printf ("F(x) = %.2f\n", (double)(1 + x) / (1 - x));                
-	printf ("g(X) = %.2f", (3 * pow(x,5) + 2 * x + sqrt(x + 1) ) / ( 5 * x * x - 3));
+	if (x != 1) {
+		printf ("F(x) = %.2f\n", (double)(1 + x) / (1 - x));   
+	}
+
+	if (x >= -1) {
+		printf ("g(X) = %.2f", (3 * pow(x,5) + 2 * x + sqrt(x + 1) ) / ( 5 * x * x - 3));
+}
+	// bên dưới k có nghiệm, nên chỉ xét trog căn
 	
+	else {
+		printf (" ");
+	}
 	return 0;
 }
